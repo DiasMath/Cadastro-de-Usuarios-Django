@@ -1,1 +1,1 @@
-web: gunicorn projeto_cad_usuarios.wsgi --log-file -
+web: gunicorn projeto_cad_usuarios.wsgi:application
